@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "yekan";
+    src: url('../fonts/Yekan/Yekan.woff') format('woff');
+}
+
+*{
+    font-family: "yekan" ,sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    color: white;
+    margin: 0;
+    text-align: right;
+}
+
+body {
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+}
+
+.container {
+    direction: rtl;
+    width: 20rem;
+    height: 400px;
+    border-radius: 50px;
+    z-index: 100;
+    background-color: rgb(105 105 105 / 22%);
+}
+
+
+.input-style {
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.301);
+    color: white;
+    border: none;
+    outline: none;
+    padding: 8px 50px;
+    text-align: center;
+}
+
+
+.input-style:focus {
+    box-shadow: inset 0 0 0 1px black, 0 0 3px 1px rgb(139, 189, 255); 
+    outline: none;
+}
+
+
+.bg-green {
+    color: rgb(238, 238, 238);
+    background: linear-gradient(90deg, #019b34 0%, #03a34b 100%);
+}
+
+.bg-green:hover {
+    background: linear-gradient(90deg, #006900 0%, #00740a 100%);
+}
+
+.bg-white {
+    transition: all .5s;
+    background: linear-gradient(90deg, #e7e7e7 0%, #cecece 100%);
+}
+
+.bg-white:hover{
+    background: linear-gradient(90deg, #fcfcfc 0%, #ffffff 100%);
+}
+
+.btns {
+    text-decoration: none;
+    color: black;
+    margin: 0 8px;
+    padding: 2px 25px;
+    outline: none;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 100000;
+}
+
+
+.zoom {
+    transition: transform .5s;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  .zoom:hover {
+    -ms-transform:scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+  }
+
+
+
+.showPassword {
+    font-size: 17px;
+    padding-top: 10px;
+    color: rgb(221, 200, 200);
+    cursor: pointer;
+}
+
+
+.header-register-title {
+    color: #e7e7e7;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.input-title {
+    color: rgb(196, 196, 196);
+    font-size: 20px;
+    border-right: 2px solid skyblue;
+    margin-bottom: 8px;
+}
+
+.input-title p {
+    margin-right: 6px;
+}
+
+.phone-number {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+

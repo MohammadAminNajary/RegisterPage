@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="fonts/fontawesome-free-5.14.0-web/css/all.css">
+</head>
+<body>
+
+    
+    <div style="height: 700px;" class="d-flex align-items-center justify-content-center">
+        <section class="container d-flex justify-content-center flex-column align-items-center">
+            <section class="header-register">
+                <h1 class="header-register-title">فرم ثبت نام</h1>
+            </section>
+                <section class="main-register">
+                    <form  name='frmCustomer' ng-app novalidate>
+                        <div class="phone-number">
+                            <div class="input-title">
+                                <p>شماره موبایل</p>
+                            </div>
+                            <input name="user" id="user" class="input-style" maxlength="11" type="text">
+                        </div>
+                        <a class="btn btn-warning zoom" href="../LoginPage/index.html"> بازگشت</a>
+                        <button class="btn btn-success zoom" type='submit' ng-disabled='!frmCustomer.$valid'>تایید</button>
+                    </form>
+                </section>
+            <section class="footer-register">
+            </section>
+        </section>
+    </div> 
+    <script src="js/validation.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+</body>
+
+
+</html>
